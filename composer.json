@@ -1,0 +1,22 @@
+{
+    "name": "lequinharay/freemind-parser",
+    "type": "library",
+    "require": {
+        "symfony/http-foundation": "^3.3",
+        "symfony/console": "^3.3",
+        "pimple/pimple": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "lequinharay",
+            "email": "lequinharay@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": ["App/"]
+    }
+}
